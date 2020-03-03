@@ -1,0 +1,2 @@
+5000, tauri, jänes, 2022
+4000, madis, tiiger, 2021

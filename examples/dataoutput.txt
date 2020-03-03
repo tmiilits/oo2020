@@ -1,0 +1,2 @@
+Number is 5000 and name is  tauri and favorite animal is  jänes and graduation year is  2022
+Number is 4000 and name is  madis and favorite animal is  tiiger and graduation year is  2021
