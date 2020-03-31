@@ -2,6 +2,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 /**
  * aChars
+ * 
+ * Tegemata jäi see punkt:
  * Loe kokku, mitu sõna oli ühe, kahe, kolme jne a-tähega. Koosta tabel, kus ridadeks tähtede arv sõnas ning
  veergudeks a-tähtede arv. Lahtris näidatakse, mitu vastavat sõna oli tekstis.
  */
@@ -15,12 +17,13 @@ public class aChars{
         String textFile;
         int uppercaseA = 0;
         int lowercaseA = 0;
-        int allChars = 0; /** kõikide tähtede loendamiseks */
+        int allChars = 0; // kõikide tähtede loendamiseks 
         String[] words = new String[0];
         
         while ((textFile = reader.readLine()) != null){
             words = textFile.split(" ");
             for (int i = 0; i <= textFile.length() - 1; i++) {
+                //järgnevalt loen kokku erinevad a tähed
                 if (textFile.charAt(i) == 'A') {
                     uppercaseA++;
                 } else if (textFile.charAt(i) == 'a') {
@@ -37,11 +40,12 @@ public class aChars{
 
         int aCharacters = 0;
         float altogetherA = (lowercaseA + uppercaseA);
-        int wordstogether = 0;
+        int wordstogether = 0; //seda on vaja, et teada mitu sõna on tekstifailis
        
 
         for (int i = 0; i <= words.length - 1; i++) {
             for (int j = 0; j <= words[i].length() - 1; j++) {
+                //siin loen kokku mitu a tähte on ühes kindlas sõnas
                 if ((words[i].charAt(j) == 'a') || (words[i].charAt(j) == 'A')) {
                     aCharacters++;
                 }
