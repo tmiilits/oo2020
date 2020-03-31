@@ -1,3 +1,6 @@
+/**
+ * Main
+ */
 public class Main{
     public static void main(String[] args){
         People newPerson1 = new People ("Timo", 24, "Estonia", "Viljandi", "computer science");
