@@ -197,5 +197,5 @@ public class Character implements CharacterBehaviour, List {
         // TODO Auto-generated method stub
 
     }
-
-} 
+    
+}
