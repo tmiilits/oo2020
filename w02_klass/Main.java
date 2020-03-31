@@ -1,9 +1,9 @@
 public class Main{
     public static void main(String[] args){
-        Human newHuman = new Human ("Mari", 25, 176, 2, 2);
-        Human newHuman2 = new Human ("Peeter", 19, 199, 3, 4); 
+        People newPerson1 = new People ("Timo", 24, "Estonia", "Viljandi", "computer science");
+        People newPerson2 = new People ("Jossi", 20, "Finland", "Helsinki", "history"); 
 
-        System.out.println(newHuman);
-        System.out.println(newHuman2);
+        System.out.println(newPerson1);
+        System.out.println(newPerson2);
     }
 }

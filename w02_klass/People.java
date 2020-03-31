@@ -3,19 +3,19 @@ public class People {
     private int age;
     private String country;
     private String city;
-    private int howLong;
+    private String speciality;
 
 
-    public People(String name, int age, String country, String city, int howLong){
+    public People(String name, int age, String country, String city, String speciality){
         this.name = name;
         this.age = age;
         this.country = country;
         this.city = city;
-        this.howLong = howLong;
+        this.speciality = speciality;
     }
 
     @Override
     public String toString(){
-        return "Hello! I am" + name + " and I am" + age + "plapla" + country + "plapla" + city + "plapla" + howLong + ". Thank you for listening"
+        return "\nHello! I am " + name + " and I am " + age + " years old. I am from " + country + ", " + city + " and i am studying " + speciality + ". Thank you for listening!";
     }
 }
