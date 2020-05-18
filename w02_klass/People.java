@@ -2,11 +2,11 @@
  * People
  */
 public class People {
-    private String name;
-    private int age;
-    private String country;
-    private String city;
-    private String speciality;
+    public String name;
+    public int age;
+    public String country;
+    public String city;
+    public String speciality;
 
 
     public People(String name, int age, String country, String city, String speciality){

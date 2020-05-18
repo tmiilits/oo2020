@@ -28,7 +28,7 @@ public class Test {
 
         Test test = new Test();
         test.name = "My Test name";
-        test.length = "30 days";
+        //test.length = "30 days";
 
         Test test2 = new Test();
         test2.name = "My Second Test";

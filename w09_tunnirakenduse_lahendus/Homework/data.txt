@@ -1,0 +1,5 @@
+Tanel,2,5km,19:20:36
+Madis,1,5k,17:49:12
+Mihkel,3,5km,22:38:58
+Jaanus,5,5km,28:12:23
+Virgo,4,5km,24:74:53
